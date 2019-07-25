@@ -34,21 +34,16 @@ $appName = explode('.', $domain)[0];
         </header>
 
         <div class="header">
-            <div>
-                <h1>Getting Started with Mercado Libre's PHP SDK</h1>
-                <h2>Official PHP SDK for Mercado Libre's API.</h2>
-            </div>
+            
         </div>
 
         <main class="container">
-            <h3>Hi, Developer!</h3>
-            <p>This is a sample app, deployed to Heroku with Mercado Libre's PHP SDK. Feel free to use it as a base, to start building your awesome app!</p>
-
+            
             <div class="row">
                 <div class="col-md-6">
                     <h3>How it works?</h3>
                     <ul>
-                        <li>prueba de conexion:This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/go-getting-started">Heroku Button</a> on the repository.</li>
+                        <li>datos actualizados!!!:This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/go-getting-started">Heroku Button</a> on the repository.</li>
                         <li>When Heroku received the source code it used the go tool chain to compile the application along with any vendored dependencies and created a deployable slug.</li>
                         <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
                         <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
