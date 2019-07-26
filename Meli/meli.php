@@ -70,7 +70,7 @@ class Meli {
      */
     public function getAuthUrl($redirect_uri, $auth_url) {
         $this->redirect_uri = $redirect_uri;
-        $params = array("client_id" => $this->client_id, "response_type" => "code", "redirect_uri" => $redirect_uri);
+        $params = array("client_id" => $this->client_id, "response_type" => "code", "redirect_uri" => $redirect_uri);        
         $auth_uri = $auth_url."/authorization?".http_build_query($params);
         return $auth_uri;
     }
